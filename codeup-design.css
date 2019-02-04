@@ -1,114 +1,116 @@
-.smallifier {
-    height: 10em;
-    width: 16em;
-}
+/*.smallifier {*/
+/*height: 10em;*/
+/*width: 16em;*/
+/*}*/
 
 
-.row {
-    border: solid black;
-    margin-top: .5em;
-    border-width: 1px;
-    /*height: 100px;*/
-}
+/*.row {*/
+/*!*border: solid black;*!*/
+/*margin-top: .5em;*/
+/*border-width: 1px;*/
+/*!*height: 100px;*!*/
+/*}*/
 
-.col {
-    border: solid black;
-    border-width: 1px;
-    /*height: 100px;*/
+/*.col {*/
+/*border: solid black;*/
+/*border-width: 1px;*/
+/*!*height: 100px;*!*/
 
-}
+/*}*/
 
-/*----Top navigation-------------------------------------------------------------------------------------- */
+/*!*----Top navigation-------------------------------------------------------------------------------------- *!*/
 
-#code_up_design {
-    color: black;
+/*#code_up_design {*/
+/*color: black;*/
 
-}
+/*}*/
 
-#service_work {
-    background-color: green;
-}
-
-
-#services_work li {
-    display: inline-block;
-    list-style-type: none;
-    color: black;
-}
-
-#white_space {
-
-}
-
-#blog_contact {
-
-}
-
-#blog_contact li {
-    display: inline-block;
-    list-style-type: none;
-    color: black;
-}
+/*#service_work {*/
+/*background-color: green;*/
+/*}*/
 
 
-#picture {
+/*#services_work li {*/
+/*display: inline-block;*/
+/*list-style-type: none;*/
+/*color: black;*/
+/*}*/
 
-}
+/*#white_space {*/
 
-#logo {
-    height: 80px;
-    width: 80px;
-}
+/*}*/
 
-#first-row {
-    color: white;
-}
+/*#blog_contact {*/
 
-#hidden {
-    display: none;
-}
+/*}*/
 
+/*#blog_contact li {*/
+/*display: inline-block;*/
+/*list-style-type: none;*/
+/*color: black;*/
+/*}*/
 
 
-#first-row #code_up_design   { order: 2; }
-#first-row #picture          { order: 1; }
-#first-row #services_work    { order: 4; }
-#first-row #blog_contact     { order: 5; }
-#first-row #white_space      { order: 3; }
+/*#picture {*/
 
-/*--I-pad view---------------------------------------------------------------------------------------- */
-/*------------------------------------------------------------------------------------------ */
-/*------------------------------------------------------------------------------------------ */
+/*}*/
 
-@media screen and (min-width:600px) and (max-width: 795px ) {
+/*#logo {*/
+/*height: 80px;*/
+/*width: 80px;*/
+/*}*/
 
-    .row {
+/*#first-row {*/
+/*color: white;*/
+/*}*/
 
-    }
+/*#hidden {*/
+/*display: none;*/
+/*}*/
 
-    #first-row #picture   { order: 2; }
-    #first-row #code_up_design { display: none; }
-    #first-row #white_space { display: none; }
-    #first-row #services_work { order: 1; }
-    #first-row #blog_contact  { order: 3; }
 
-    #hidden {
-        display: block;
-    }
 
-   }
+/*#first-row #code_up_design   { order: 2; }*/
+/*#first-row #picture          { order: 1; }*/
+/*#first-row #services_work    { order: 4; }*/
+/*#first-row #blog_contact     { order: 5; }*/
+/*#first-row #white_space      { order: 3; }*/
 
-/*--Phone view---------------------------------------------------------------------------------------- */
-/*------------------------------------------------------------------------------------------ */
-/*------------------------------------------------------------------------------------------ */
+/*!*--I-pad view---------------------------------------------------------------------------------------- *!*/
+/*!*------------------------------------------------------------------------------------------ *!*/
+/*!*------------------------------------------------------------------------------------------ *!*/
 
-@media screen and (max-width:600px) {
+/*@media screen and (min-width:600px) and (max-width: 795px ) {*/
 
-        .row {
-            background-color: green;
-        }
+/*.row {*/
 
-    }
+/*}*/
+
+/*#first-row #picture   { order: 2; }*/
+/*#first-row #code_up_design { display: none; }*/
+/*#first-row #white_space { display: none; }*/
+/*#first-row #services_work { order: 1; }*/
+/*#first-row #blog_contact  { order: 3; }*/
+
+/*#hidden {*/
+/*display: block;*/
+/*}*/
+
+/*}*/
+
+/*!*--Phone view---------------------------------------------------------------------------------------- *!*/
+/*!*------------------------------------------------------------------------------------------ *!*/
+/*!*------------------------------------------------------------------------------------------ *!*/
+
+/*!*@media screen and (max-width:600px) {*!*/
+
+/*!*.row4 {*!*/
+/*!*flex-direction: column;*!*/
+
+/*!*}*!*/
+
+/*!*}*!*/
+
 
 
 

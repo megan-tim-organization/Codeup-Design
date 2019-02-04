@@ -1,0 +1,55 @@
+
+
+.col-sm {
+
+}
+
+.no_padding {
+    padding: 0;
+}
+
+.blank {
+    background-color: white;
+    height: 100px;
+    width: 200px;
+}
+
+#codeup_design_disapear {
+    display: none;
+}
+
+#new_nav_gone {
+    display: none;
+}
+
+@media screen and (max-width:992px)  {
+
+
+        #hidden { display: none; }
+        #blog_contact { order: 3; }
+        #services_work { order: 1; }
+        #codeup_design { display: none; }
+        #logo_blue { order: 2; }
+
+        #codeup_design_disapear {
+            display: block;
+        }
+
+}
+
+
+@media screen and (max-width:760px) {
+
+    #nav_gone {
+        display: none;
+    }
+
+    #codeup_design_disapear {
+        display: none;
+    }
+
+    #new_nav_gone {
+        display: block;
+    }
+
+}
