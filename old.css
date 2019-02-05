@@ -118,15 +118,15 @@ ul {
 @media screen and (max-width:992px)  {
 
 
-        #hidden { display: none; }
-        #blog_contact { order: 3; }
-        #services_work { order: 1; }
-        #codeup_design { display: none; }
-        #logo_blue { order: 2; }
+    #hidden { display: none; }
+    #blog_contact { order: 3; }
+    #services_work { order: 1; }
+    #codeup_design { display: none; }
+    #logo_blue { order: 2; }
 
-        #codeup_design_disapear {
-            display: block;
-        }
+    #codeup_design_disapear {
+        display: block;
+    }
 
     #sm-screen-multi4 {
         display: none;
@@ -137,15 +137,15 @@ ul {
     }
 
 
-/*--Ipad navigation ---------------------------------------------------------------------------------------- */
+    /*--Ipad navigation ---------------------------------------------------------------------------------------- */
 
     #full_screen_view {
         display: none;
     }
 
     /*#ipad_view {*/
-       /*display: block;*/
-        /*background-color: red;*/
+    /*display: block;*/
+    /*background-color: red;*/
     /*}*/
 
     #mobil_view {
@@ -153,41 +153,41 @@ ul {
     }
 
 
-/*---Mobil view--------------------------------------------------------------------------------------- */
-/*------------------------------------------------------------------------------------------ */
-/*------------------------------------------------------------------------------------------ */
+    /*---Mobil view--------------------------------------------------------------------------------------- */
+    /*------------------------------------------------------------------------------------------ */
+    /*------------------------------------------------------------------------------------------ */
 
-@media screen and (max-width:760px) {
+    @media screen and (max-width:760px) {
 
-    #nav_gone {
-        display: none;
-    }
+        #nav_gone {
+            display: none;
+        }
 
-    #codeup_design_disapear {
-        display: none;
-    }
+        #codeup_design_disapear {
+            display: none;
+        }
 
-    /*#new_nav_gone {*/
+        /*#new_nav_gone {*/
         /*display: block;*/
-    /*}*/
+        /*}*/
 
-    #sm-screen-multi4 {
-        display: block;
+        #sm-screen-multi4 {
+            display: block;
+        }
+
+        #md-screen-multi4 {
+            display: none;
+        }
+
+        /*--Mobile Navigation---------------------------------------------------------------------------------------- */
+
+        #ipad_view {
+            display: none;
+        }
+
+        #mobil_view {
+            display: block;
+        }
+
+
     }
-
-    #md-screen-multi4 {
-        display: none;
-    }
-
- /*--Mobile Navigation---------------------------------------------------------------------------------------- */
-
-    #ipad_view {
-       display: none;
-    }
-
-    #mobil_view {
-        display: block;
-    }
-
-
-}
