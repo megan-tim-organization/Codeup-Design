@@ -3,7 +3,7 @@ body{
     background-color: #e6e6e6;
     padding: 3em;
 }
-#codeup_design {
+.codeup_design {
     font-size: 28px;
     padding-left: 0;
 }
@@ -19,6 +19,10 @@ body{
 .less_padding {
     padding: 0em 1.5em 1.5em 1.5em;
 }
+.list_padding {
+    padding: .2em;
+}
+
 
 .center_verticle {
     padding-top: 35px;
@@ -28,6 +32,10 @@ body{
     background-color: #e6e6e6;
     height: 100px;
     width: 200px;
+}
+
+.max_width {
+    max-width: 300px;
 }
 
 #codeup_design_disapear {
@@ -103,7 +111,7 @@ ul {
 
 /*--Full screen navigation---------------------------------------------------------------------------------------- */
 
-#ipad_view {
+.ipad_view {
     display: none;
 }
 
@@ -143,15 +151,24 @@ ul {
         display: none;
     }
 
-    /*#ipad_view {*/
-       /*display: block;*/
-        /*background-color: red;*/
-    /*}*/
+    .ipad_view {
+       display: flex;
+
+    }
 
     #mobil_view {
         display: none;
     }
+    .cudesign {
+        text-align: center;
+        justify-content: center;
+        font-size: 27px;
+    }
 
+    .center_ipad_nav{
+        text-align: center;
+    }
+}
 
 /*---Mobil view--------------------------------------------------------------------------------------- */
 /*------------------------------------------------------------------------------------------ */
@@ -168,9 +185,8 @@ ul {
     }
 
     /*#new_nav_gone {*/
-        /*display: block;*/
+    /*display: block;*/
     /*}*/
-
     #sm-screen-multi4 {
         display: block;
     }
@@ -179,15 +195,22 @@ ul {
         display: none;
     }
 
- /*--Mobile Navigation---------------------------------------------------------------------------------------- */
-
-    #ipad_view {
-       display: none;
+    /*--Mobile Navigation---------------------------------------------------------------------------------------- */
+    .ipad_view {
+        display: none;
     }
 
     #mobil_view {
-        display: block;
+        display: flex;
     }
 
+    .right {
+        text-align: center;
+    }
+
+    .left {
+        text-align: center;
+    }
 
 }
+
